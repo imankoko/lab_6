@@ -11,7 +11,7 @@ $course = "Information Technology";
 $year = "2";
 $address = "6360, Jalan Melati 3, bandar Indapura, 81000, Kulai Johor";
 ?>
-<table>
+<table border="1" cellpadding="10">
 <tr>
 <td>Name</td>
 <td><?php echo "$name"; ?></td>
