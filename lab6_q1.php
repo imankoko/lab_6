@@ -5,12 +5,32 @@
 </head>
 <body>
 <?php
-$name = "Muhammad Asyraf";
+$name = "Iman Fahmi Bin Roslin";
+$matric = "DI230003";
+$course = "Information Technology";
+$year = "2";
+$address = "6360, Jalan Melati 3, bandar Indapura, 81000, Kulai Johor";
 ?>
 <table>
 <tr>
 <td>Name</td>
 <td><?php echo "$name"; ?></td>
+</tr>
+<tr>
+<td>Matric Number</td>
+<td><?php echo $matric; ?></td>
+</tr>
+<tr>
+<td>Course</td>
+<td><?php echo $course; ?></td>
+</tr>
+<tr>
+<td>Year of Study</td>
+<td><?php echo $year; ?></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><?php echo $address; ?></td>
 </tr>
 </table>
 </body>
