@@ -13,6 +13,8 @@
     $height = 2;
 
     $area = calculateArea($width, $height);
+
+    echo "<strong>The area of a rectangle with a width of $width and $height is $area</strong>";
     ?>
 </body>
 </html>
