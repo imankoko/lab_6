@@ -29,6 +29,15 @@
             <th>Program</th>
             <th>Age</th>
         </tr>
+        <?php
+        foreach ($students as $student) {
+            echo "<tr>";
+            echo "<td>" . $student['name'] . "</td>";
+            echo "<td>" . $student['program'] . "</td>";
+            echo "<td>" . $student['age'] . "</td>";
+            echo "</tr>";
+        }
+        ?>
     </table>
 </body>
 </html>
