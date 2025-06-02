@@ -8,6 +8,8 @@
     function calculateArea($width, $height) {
         return $width * $height;
     }
+    $width = 4;
+    $height = 2;
     ?>
 </body>
 </html>
