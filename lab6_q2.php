@@ -23,5 +23,12 @@
         ]
     ];
     ?>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Program</th>
+            <th>Age</th>
+        </tr>
+    </table>
 </body>
 </html>
